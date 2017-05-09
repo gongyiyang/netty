@@ -3,6 +3,8 @@
 
 package protobuf;
 
+import protobuf.SubscribeReqProto.SubscribeReq.Builder;
+
 public final class SubscribeReqProto {
 
 	private SubscribeReqProto() {
@@ -953,6 +955,7 @@ public final class SubscribeReqProto {
 		com.google.protobuf.Descriptors.FileDescriptor.internalBuildGeneratedFileFrom(descriptorData,
 				new com.google.protobuf.Descriptors.FileDescriptor[] {}, assigner);
 	}
-
+	
 	// @@protoc_insertion_point(outer_class_scope)
+	
 }
